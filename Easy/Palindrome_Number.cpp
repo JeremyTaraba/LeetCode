@@ -23,3 +23,19 @@ public:
         return r;
     }
 };
+
+int main(){
+    Solution palindrome;
+    int num;
+    cout << "Enter number to be checked if it is a Palindrome" << endl;
+    cin >> num;
+    if( palindrome.isPalindrome(num) ){
+        cout << "Yes, The number you entered is a Palindrome" << endl;
+    }
+    else{
+        cout << "No, The number you entered is NOT a Palindrome" << endl;
+    }
+
+
+    return 0;
+}
