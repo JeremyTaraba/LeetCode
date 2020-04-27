@@ -2,6 +2,8 @@
 #include <string>
 using namespace std;
 
+//NOTE: this does not work for decimals since we are using an int
+
 class Solution {
 public:
     bool isPalindrome(int x) {
@@ -29,6 +31,10 @@ int main(){
     int num;
     cout << "Enter number to be checked if it is a Palindrome" << endl;
     cin >> num;
+    if(isdigit(num)){ //checks individual digis
+        cout << "ERROR: You did not enter a number" << endl;
+        return 0;
+    }
     if( palindrome.isPalindrome(num) ){
         cout << "Yes, The number you entered is a Palindrome" << endl;
     }
