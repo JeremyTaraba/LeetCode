@@ -8,7 +8,6 @@ class Solution {
 public:
     bool isPalindrome(int x) {
         
-        //lowered the memory and the runtime
         if((x < 0) || (x % 10 == 0 && x != 0)){
             return false;
         };
@@ -31,10 +30,7 @@ int main(){
     int num;
     cout << "Enter number to be checked if it is a Palindrome" << endl;
     cin >> num;
-    if(isdigit(num)){ //checks individual digis
-        cout << "ERROR: You did not enter a number" << endl;
-        return 0;
-    }
+    
     if( palindrome.isPalindrome(num) ){
         cout << "Yes, The number you entered is a Palindrome" << endl;
     }
