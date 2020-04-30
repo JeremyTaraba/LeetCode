@@ -26,6 +26,22 @@ public:
 };
 
 int main(){
+    Solution palindrome;
+    int num;
+
+    cout << "Enter number to be checked if it is a Palindrome" << endl;
+
+    if (!(cin >> num)){             //this only checks if input starts with a character. otherwise ignores characters
+        cout << "You did not enter a valid number" << endl;
+        return 0;
+    }
+    
+    if( palindrome.isPalindrome(num) ){
+        cout << "Yes, You entered a Palindrome" << endl;
+    }
+    else{
+        cout << "No, The number you entered is NOT a Palindrome" << endl;
+    } 
 
     return 0;
 }
