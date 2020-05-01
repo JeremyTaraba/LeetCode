@@ -3,6 +3,8 @@
 using namespace std;
 
 //NOTE: this does not work for decimals since we are using an int
+//We can implement isdigit to check each character of the input to see if input is actually a number
+//we can change the number to be a float to include decimals.
 
 class Solution {
 public:
