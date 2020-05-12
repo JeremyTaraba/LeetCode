@@ -1,3 +1,5 @@
+//input strings can be any number of 'L' or 'R'
+
 class Solution {
 public:
     int balancedStringSplit(string s) {
