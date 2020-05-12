@@ -1,4 +1,6 @@
 //input strings can be any number of 'L' or 'R'
+//input strings must have the same amount of 'L' as 'R'
+//return amount of times L and R were balanced
 
 class Solution {
 public:
