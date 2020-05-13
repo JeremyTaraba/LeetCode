@@ -1,5 +1,7 @@
 #include <math.h>
 
+//break apart the integer into single digits and multiply them together then subtract that from the sum of the single digits
+
 class Solution {
 public:
     int subtractProductAndSum(int n) {
