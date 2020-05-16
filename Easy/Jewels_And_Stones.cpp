@@ -1,6 +1,8 @@
 
 //There is a faster way of doing this instead of a nested for loop
+//check every jewel to see if stone matches it
 //if jewels matches stones then add to numbers of jewels
+
 class Solution {
 public:
     int numJewelsInStones(string J, string S) {
