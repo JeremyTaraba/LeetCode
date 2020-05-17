@@ -1,6 +1,9 @@
 #include <string>
 
 //convert the given string into all lower case
+//all we have to do is see if each character is above the ascii code for lowercase letters
+
+
 class Solution {
 public:
     string toLowerCase(string str) {
