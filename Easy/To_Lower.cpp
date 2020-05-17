@@ -1,4 +1,6 @@
 #include <string>
+
+//convert the given string into all lower case
 class Solution {
 public:
     string toLowerCase(string str) {
