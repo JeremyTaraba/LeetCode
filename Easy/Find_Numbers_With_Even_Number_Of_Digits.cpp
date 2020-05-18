@@ -1,3 +1,5 @@
+//the size of the number doesn't matter
+
 class Solution {
 public:
     int findNumbers(vector<int>& nums) {
