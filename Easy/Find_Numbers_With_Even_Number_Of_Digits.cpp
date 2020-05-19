@@ -1,6 +1,7 @@
 //the size of the number doesn't matter
 //all we do is subtract one digit from the number
 //and keep track of how many digits we subtracted
+//do this for each one
 
 class Solution {
 public:
