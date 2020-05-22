@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+//
+
 class Solution {
 public:
     int hammingDistance(int x, int y) {
@@ -22,7 +24,7 @@ public:
         }
         
    
-        for (int j = 31; j >= 0; j--) {  //reverse this
+        for (int j = 31; j >= 0; j--) {  //don't have to reverse this but easier to visualize what is going on
             if(binaryArrayX[j] != binaryArrayY[j] ){
                 hammingDistance++;
             }
