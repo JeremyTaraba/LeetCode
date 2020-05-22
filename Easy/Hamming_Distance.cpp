@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-//
+//counting how many bits are different from two decimal numbers
 
 class Solution {
 public:
