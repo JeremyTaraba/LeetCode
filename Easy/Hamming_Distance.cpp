@@ -2,9 +2,11 @@
 using namespace std;
 
 //counting how many bits are different from two decimal numbers
+//returning that as the distance
 
 class Solution {
 public:
+
     int hammingDistance(int x, int y) {
         int binaryArrayX[32] = {0};
         int binaryArrayY[32] = {0};
