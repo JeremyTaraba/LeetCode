@@ -3,6 +3,8 @@ using namespace std;
 
 //counting how many bits are different from two decimal numbers
 //returning that as the distance
+//is there a better way to do this? maybe there is a formula to calculate the bit difference
+//without having to convert it into binary
 
 class Solution {
 public:
