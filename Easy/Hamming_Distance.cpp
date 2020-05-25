@@ -5,7 +5,7 @@ using namespace std;
 //returning that as the distance
 //is there a better way to do this? maybe there is a formula to calculate the bit difference
 //without having to convert it into binary
-//
+//do research into this
 
 class Solution {
 public:
