@@ -1,5 +1,5 @@
 
-//
+//find size of number and reduce it
 
 class Solution {
 public:
