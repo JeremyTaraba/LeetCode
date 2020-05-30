@@ -3,6 +3,7 @@
 //parse the string
 //I = 1, V = 5, X = 10 and so on
 //then add it all up
+//doesnt check for incorrect roman numerals
 class Solution {
 public:
     int romanToInt(string s) {
