@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-class Solution {
+class Solution {//
 public:
     int romanToInt(string s) {
         int Total = 0;
