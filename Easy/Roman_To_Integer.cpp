@@ -1,6 +1,8 @@
 #include <stdio.h>
 
 //parse the string
+//I = 1, V = 5, X = 10 and so on
+
 class Solution {
 public:
     int romanToInt(string s) {
