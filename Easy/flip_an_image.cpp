@@ -9,17 +9,13 @@ public:
             A.at(i).clear();
             int size_of = horizontal_flip.size();
             for(int k = 0; k < size_of; k++){
-                A.at(i).push_back(horizontal_flip.top());
-                horizontal_flip.pop();
-            }
-            
-             for(int j = 0; j < A.at(i).size(); j++){
-                if(A.at(i).at(j) == 0){
-                    A.at(i).at(j) = 1;
+                if(horizontal_flip.top() == 0){
+                    A.at(i).push_back(1);
                 }
-                 else{
-                     A.at(i).at(j) = 0;
-                 }
+                else{
+                    A.at(i).push_back(0);
+                }
+                horizontal_flip.pop();
             }
         }
         
