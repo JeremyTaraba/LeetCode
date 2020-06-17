@@ -2,6 +2,10 @@
 
 using namespace std;
 
+// takes in a vector of a vector of integers and reverses the order of bits
+// then it flips the bits after reversing it.
+// aka 0's become 1's and 1's become 0's
+
 class Solution {
 public:
     vector<vector<int>> flipAndInvertImage(vector<vector<int>>& A) {
