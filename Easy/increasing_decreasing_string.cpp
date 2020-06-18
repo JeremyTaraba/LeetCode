@@ -4,6 +4,10 @@
 using namespace std;
 const int MAX_CHAR = 26;
 
+// sorts a string from decreasing to increasing then if there are still characters left
+// it appends the string from increasing to decreasing
+
+
 class Solution {
 public:
     string sortString(string s) {
