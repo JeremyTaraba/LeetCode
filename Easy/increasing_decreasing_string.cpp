@@ -6,7 +6,7 @@ const int MAX_CHAR = 26;
 
 // sorts a string from decreasing to increasing then if there are still characters left
 // it appends the string from increasing to decreasing
-
+// it does this for all characters
 
 class Solution {
 public:
