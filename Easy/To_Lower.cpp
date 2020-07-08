@@ -1,5 +1,5 @@
 #include <string>
-
+  
 //convert the given string into all lower case
 //all we have to do is see if each character is in the ascii code for uppercase letters
 //if yes then add 32 to change to lowercase letters
