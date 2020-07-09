@@ -1,5 +1,5 @@
 class Solution {
-public:
+public: 
     bool isValid(string s) {
         stack<char> leftP;
         for(int i = 0; i < s.length(); i++){
