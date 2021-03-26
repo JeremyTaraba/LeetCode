@@ -52,5 +52,5 @@ public:
 /*
 notes: If candyType is always ordered then we can just use an int to keep track of how many candies we are allowed to eat.
 We could also just store the chosen candies inside of the vector candyType and remove and repeating candy types and any types that go beyond the max amount of candies we can eat. This only works if we are allowed to manipulate the original vector since it is passed by reference.
-
+using unordered set might be faster
 */
