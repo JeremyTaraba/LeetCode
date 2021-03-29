@@ -17,7 +17,7 @@ public:
         int lastSum = nums.at(0);
         vector<int> runningSum;
         runningSum.push_back(nums.at(0));
-        short int vSize = nums.size();  //storing the size of the vector in datatype of short int saves space when calling in for loop
+        short int vSize = nums.size();  //storing the size of the vector in datatype of short int to see if it saves space or time
         
         for(int i = 1; i < vSize; i++){
             runningSum.push_back(lastSum + nums.at(i));
