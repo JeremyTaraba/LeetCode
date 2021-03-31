@@ -56,7 +56,7 @@ public:
 
 /*
 Notes:
-Could use getter and setter functions but since addCar function is inside the class we might as well save time by not using them
+Could use getter and setter functions but since addCar function is inside the same class we might as well save time by not using them
 
 Constraints:
 0 <= big, medium, small <= 1000
