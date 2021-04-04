@@ -22,6 +22,7 @@ Explanation: (101) in base 2 = (5) in base 10
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
+
 class Solution {
 public:
     int getDecimalValue(ListNode* head) {
