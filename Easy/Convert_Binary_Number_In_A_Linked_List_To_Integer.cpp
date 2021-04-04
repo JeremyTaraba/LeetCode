@@ -9,7 +9,7 @@
  * };
  */
 class Solution {
-public:
+public: 
     int getDecimalValue(ListNode* head) {
         int decimal = 0;
         
