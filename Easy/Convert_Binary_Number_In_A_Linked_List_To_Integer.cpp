@@ -11,7 +11,6 @@ Output: 5
 Explanation: (101) in base 2 = (5) in base 10
 */
 
-
 /**
  * Definition for singly-linked list.
  * struct ListNode {
