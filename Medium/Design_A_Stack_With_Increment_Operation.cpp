@@ -13,6 +13,7 @@ void inc(int k, int val) Increments the bottom k elements of the stack by val. I
 
 
 
+
 class CustomStack {
 private:
     vector<int> stackType;
