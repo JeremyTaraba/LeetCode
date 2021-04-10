@@ -15,7 +15,8 @@ public:
                 lastIndex = i;
             }
         }
-        if(i == s.size()){
+        
+        if(i == s.size()){  //went through the loop and every space is allowed then sentence will be the same as s
             sentence = s;
         }
         
