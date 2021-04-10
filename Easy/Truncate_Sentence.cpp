@@ -7,13 +7,11 @@ public:
         int i;
         for(i = 0; i < s.size(); i++){
             if(numSpaces >= k){
-                cout << "breaking" << endl;
                 break;
             }
             if(s.at(i) == ' '){
                 numSpaces++;
                 sentence.append(s, lastIndex, i-lastIndex);
-                cout << "sentence = " << sentence << endl;
                 lastIndex = i;
             }
         }
@@ -24,3 +22,17 @@ public:
         return sentence;
     }
 };
+
+/*
+Notes:
+Maybe 
+
+Constraints:
+1 <= s.length <= 500
+k is in the range [1, the number of words in s].
+s consist of only lowercase and uppercase English letters and spaces.
+The words in s are separated by a single space.
+There are no leading or trailing spaces.
+
+
+*/
