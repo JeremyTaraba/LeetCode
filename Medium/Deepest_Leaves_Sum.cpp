@@ -35,7 +35,7 @@ public:
         }
     }
     
-    int Sum(TreeNode* root, int depth, int currDepth) {
+    int Sum(TreeNode* root, int depth, int currDepth) { 
         if (root == NULL){
             return 0;
         } 
@@ -63,7 +63,8 @@ Notes:
 
 
 Constraints:
-
+The number of nodes in the tree is in the range [1, 104].
+1 <= Node.val <= 100
 
 
 */
