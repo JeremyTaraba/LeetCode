@@ -35,7 +35,7 @@ public:
         }
     }
     
-    int Sum(TreeNode* root, int depth, int currDepth) { 
+    int Sum(TreeNode* root, int depth, int currDepth) { //only adds the leaves at the lowest depth
         if (root == NULL){
             return 0;
         } 
