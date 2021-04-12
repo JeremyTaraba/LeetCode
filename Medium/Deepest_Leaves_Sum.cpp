@@ -60,7 +60,8 @@ public:
 
 /*
 Notes:
-
+We first traverse the tree to find the lowest depth and then we traverse the tree again to find which nodes are at the lowest depth
+Might be a way to do it in one traversal? or if we were just given the depth from the start that would help
 
 Constraints:
 The number of nodes in the tree is in the range [1, 104].
