@@ -73,8 +73,10 @@ Notes:
 I don't think there is any way to get around having to sort the vector. 
 Instead of writing a quicksort you could also use the built in sort function for vectors
 
+
 Constraints:
 1 <= heights.length <= 100
 1 <= heights[i] <= 100
+
 
 */
