@@ -19,7 +19,6 @@ Indices 2, 4, and 5 do not match.
 
 class Solution {
 public:
-    
     int partition(vector<int> &values, int left, int right) {   //recursive function for swapping values around
         int pivotIndex = left + (right - left) / 2; //finding the middle index; left and right are indices
         int pivotValue = values[pivotIndex];    //finding the middle value
@@ -51,8 +50,6 @@ public:
         }
     }
     
-    
-    
     int heightChecker(vector<int>& heights) {
         int wrongHeights = 0;
         vector<int> expected = heights;
@@ -68,6 +65,7 @@ public:
     }
 };
 
+
 /*
 Notes:
 I don't think there is any way to get around having to sort the vector. 
@@ -77,6 +75,5 @@ Instead of writing a quicksort you could also use the built in sort function for
 Constraints:
 1 <= heights.length <= 100
 1 <= heights[i] <= 100
-
 
 */
