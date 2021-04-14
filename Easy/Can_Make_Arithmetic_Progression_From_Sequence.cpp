@@ -1,4 +1,9 @@
 
+
+
+
+
+
 #include <algorithm>    // std::sort
 
 class Solution {
@@ -14,3 +19,14 @@ public:
         return true;
     }
 };
+
+/*
+Notes:
+we have to sort the vector first.
+
+
+Constraints:
+2 <= arr.length <= 1000
+-10^6 <= arr[i] <= 10^6
+
+*/
