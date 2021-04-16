@@ -44,3 +44,18 @@ public:
         return true;
     }
 };
+
+
+/*
+Notes:
+Another approach is to sort the array and count the number of occurrences and put that into its own array. Then sort 
+the new array and check to see if any numbers in this new array are the same
+
+
+Constraints:
+1 <= arr.length <= 1000
+-1000 <= arr[i] <= 1000
+
+
+
+*/
