@@ -1,0 +1,38 @@
+class Solution {
+    public boolean checkOccurrences(List<Integer> occur, int numOccur){
+        for(int i = 0; i < occur.size(); i++){
+            if(occur.get(i) == numOccur){
+                return false;
+            }
+        }
+        return true;
+    }
+    
+    
+    
+    public boolean uniqueOccurrences(int[] arr) {
+        List<Integer> occur = new ArrayList<Integer>();
+        int numOccur = 0;
+        Arrays.sort(arr);
+        int[] tempArr = new int[arr.length + 1];
+        System.arraycopy(arr, 0, tempArr, 0, arr.length);   //copy the original array to the new array
+        tempArr[arr.length] = arr[arr.length - 1] + 1;
+        
+        for(int i = 0; i < tempArr.length - 1; i++){
+            if(tempArr[i] != tempArr[i + 1]){
+                if(!checkOccurrences(occur, numOccur)){
+                    return false;
+                }
+                else{
+                    occur.add(numOccur);
+                    numOccur = 0;
+                }
+            }
+            else{
+                numOccur++;
+            }
+        }
+        
+        return true;
+    }
+}
