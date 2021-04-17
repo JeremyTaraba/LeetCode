@@ -36,3 +36,16 @@ class Solution {
         return true;
     }
 }
+
+/*
+Notes:
+Runtime is 1ms while the memory usage is 36.9mb
+Faster than cpp which had 4ms runtime but much more memory than cpp 7.8mb
+
+
+Constraints:
+1 <= arr.length <= 1000
+-1000 <= arr[i] <= 1000
+
+
+*/
