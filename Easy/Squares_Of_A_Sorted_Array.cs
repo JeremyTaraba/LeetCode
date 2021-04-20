@@ -14,7 +14,9 @@ Another way to do it is to find the absolute value of the array first and then s
 But that would take more steps.
 
 Constraints:
-
+1 <= nums.length <= 104
+-104 <= nums[i] <= 104
+nums is sorted in non-decreasing order.
 
 
 */
