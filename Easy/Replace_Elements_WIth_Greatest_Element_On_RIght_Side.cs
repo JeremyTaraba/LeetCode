@@ -36,3 +36,14 @@ public class Solution {
             return tempArr;
     }
 }
+
+/*
+Notes:
+Going through the array and looking for max from the back is faster than going through the array from the front for this problem
+
+Constraints:
+1 <= arr.length <= 104
+1 <= arr[i] <= 105
+
+
+*/
