@@ -18,3 +18,21 @@ Explanation:
 
 
 */
+
+
+public class Solution {
+    public int[] ReplaceElements(int[] arr) {
+            int max = -1;
+            int[] tempArr = new int[arr.Length];
+            tempArr[arr.Length-1] = max;
+
+            for (int i = arr.Length-1; i > 0; i--){
+                if (arr[i] > max){
+                    max = arr[i];
+                }
+                tempArr[i-1] = max;
+            }
+
+            return tempArr;
+    }
+}
