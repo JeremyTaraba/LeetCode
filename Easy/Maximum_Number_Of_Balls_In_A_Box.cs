@@ -30,8 +30,7 @@ public class Solution {
             int tempi = i;
             while(tempi != 0){    
                 tempBox += tempi % 10;
-                
-                tempi = tempi / 10;     //c# does not round up or down but returns a decimal
+                tempi = tempi / 10;     //c# rounds down
             }
             boxes[tempBox] = boxes[tempBox] + 1;
             index++;
@@ -44,7 +43,7 @@ public class Solution {
 
 /*
 Notes:
-
+might save space if we could dynamically change the size of the array instead of just created 46 empty boxes.
 
 Constraints:
 1 <= lowLimit <= highLimit <= 105
