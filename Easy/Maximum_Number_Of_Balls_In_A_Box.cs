@@ -1,6 +1,6 @@
 public class Solution {
     public int CountBalls(int lowLimit, int highLimit) {
-        int[] boxes = new int[46];    //arrays are initialized as 0's in c#
+        int[] boxes = new int[46];    //arrays are initialized as 0's in c#, Max number of boxes possible is 46
         int index = 0;
         for(int i = lowLimit; i <= highLimit; i++){
             int tempBox = 0;
@@ -19,3 +19,11 @@ public class Solution {
     }
 }
 
+/*
+Notes:
+
+
+Constraints:
+1 <= lowLimit <= highLimit <= 105
+
+*/
