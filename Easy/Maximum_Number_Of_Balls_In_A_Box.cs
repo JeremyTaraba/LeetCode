@@ -8,7 +8,12 @@ Given two integers lowLimit and highLimit, return the number of balls in the box
 
  
 Example:
-
+Input: lowLimit = 1, highLimit = 10
+Output: 2
+Explanation:
+Box Number:  1 2 3 4 5 6 7 8 9 10 11 ...
+Ball Count:  2 1 1 1 1 1 1 1 1 0  0  ...
+Box 1 has the most number of balls with 2 balls.
 
 
 
