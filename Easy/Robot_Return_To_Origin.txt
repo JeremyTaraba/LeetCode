@@ -1,0 +1,23 @@
+public class Solution {
+    public bool JudgeCircle(string moves) {
+        int LRCounter = 0;
+        int UDCounter = 0;
+
+        for(int i = 0; i < moves.Length; i++){
+            if(moves[i] == 'U'){
+                UDCounter++;
+            }
+            else if(moves[i] == 'D'){
+                UDCounter--;
+            }
+            else if(moves[i] == 'R'){
+                LRCounter++;
+            }
+            else if(moves[i] == 'L'){
+                LRCounter--;
+            }
+        }
+        
+        return LRCounter == 0 && UDCounter == 0;
+    }
+}
