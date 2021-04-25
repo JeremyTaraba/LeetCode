@@ -13,3 +13,14 @@ public class Solution {
         return prices;
     }
 }
+
+/*
+Notes:
+Might be a way to reduce the runtime a little bit by skipping the values which can't be reduced further
+
+
+Constraints:
+1 <= prices.length <= 500
+1 <= prices[i] <= 10^3
+
+*/
