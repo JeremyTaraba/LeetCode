@@ -17,7 +17,6 @@ For items 3 and 4 you will not receive any discount at all.
 */
 
 
-
 public class Solution {
     public int[] FinalPrices(int[] prices) {
         
