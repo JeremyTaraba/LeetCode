@@ -15,7 +15,7 @@ public class Solution {
         Console.WriteLine(alphanumeric);       //check to make sure not characters got in
         int backCounter = alphanumeric.Length - 1;
         
-        for(int i = 0; i < alphanumeric.Length/2; i++){
+        for(int i = 0; i < alphanumeric.Length/2; i++){     //only need to go half of the string
             if(alphanumeric[i] != alphanumeric[backCounter]){
                 return false;
             }
@@ -28,7 +28,9 @@ public class Solution {
 
 /*
 Notes:
-
+Could use ToUpper instead of ToLower, shouldn't make much of a difference
+Someone elses solution was to cut the string in half from the start and save each half in its own string and 
+only accept letter or digits using IsLetterOrDigit(c). Then looped and commpared each side for as long as each side had charaters
 
 
 Constraints:
