@@ -1,3 +1,11 @@
+/*
+Prompt:
+Given a string s, determine if it is a palindrome, considering only alphanumeric characters and ignoring cases.
+
+
+*/
+
+
 public class Solution {
     public bool IsPalindrome(string s) {
         string alphanumeric = s.ToLower();  //make letters lowercase
