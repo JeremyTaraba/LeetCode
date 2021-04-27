@@ -33,6 +33,7 @@ public class Solution {
     }
 }
 
+
 /*
 Notes:
 Might be a way to reduce the runtime a little bit by skipping the values which can't be reduced further
