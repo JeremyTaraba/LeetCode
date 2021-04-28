@@ -37,7 +37,8 @@ public class Solution {
 
 /*
 Notes:
-
+Have to check the first letter of each columns and then the second letter of each column and so on
+Make sure it is in descending order
 
 
 Constraints:
