@@ -16,3 +16,17 @@ public class Solution {
         return numDelete;
     }
 }
+
+/*
+Notes:
+
+
+
+Constraints:
+n == strs.length
+1 <= n <= 100
+1 <= strs[i].length <= 1000
+strs[i] consists of lowercase English letters.
+
+
+*/
