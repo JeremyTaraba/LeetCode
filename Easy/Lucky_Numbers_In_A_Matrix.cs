@@ -48,6 +48,10 @@ public class Solution {
 
 /*
 Notes:
+Since there are no repeat numbers we could sort through once and find all mins in each row and all 
+max in each column and see if any are the same. This should reduce runtime and space
+This would require one O(N^2) loop to find mins and maxes and another O(N) loop to find 
+which numbers are the same
 
 
 
