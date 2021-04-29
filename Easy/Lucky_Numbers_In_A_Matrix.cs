@@ -34,3 +34,18 @@ public class Solution {
         return numbers;
     }
 }
+
+/*
+Notes:
+
+
+
+Constraints:
+m == mat.length
+n == mat[i].length
+1 <= n, m <= 50
+1 <= matrix[i][j] <= 10^5.
+All elements in the matrix are distinct.
+
+
+*/
