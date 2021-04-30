@@ -50,3 +50,14 @@ public class Solution {
         return answer;
     }
 }
+
+/*
+Notes:
+O(n) runtime
+
+Constraints:
+1 <= s.length <= 104
+s[i] and c are lowercase English letters.
+It is guaranteed that c occurs at least once in s.
+
+*/
