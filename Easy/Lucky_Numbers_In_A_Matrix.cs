@@ -45,7 +45,7 @@ public class Solution {
         return numbers;
     }
 }
-
+ 
 /*
 Notes:
 Since there are no repeat numbers we could sort through once and find all mins in each row and all 
