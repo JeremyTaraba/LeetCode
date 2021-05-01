@@ -7,7 +7,7 @@ The distance between two indices i and j is abs(i - j), where abs is the absolut
 Example:
 Input: s = "loveleetcode", c = "e"
 Output: [3,2,1,0,1,0,0,1,2,2,1,0]
-
+ 
 */
 
 
