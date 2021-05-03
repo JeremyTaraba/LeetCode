@@ -29,7 +29,7 @@ public class Solution {
             }
         }
         
-        return prices;
+        return prices; 
     }
 }
 
