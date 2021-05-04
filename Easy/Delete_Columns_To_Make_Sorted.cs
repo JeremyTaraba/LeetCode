@@ -11,7 +11,6 @@ You want to delete the columns that are not sorted lexicographically. In the abo
 
 Return the number of columns that you will delete.
 
-v
 */
 
 
