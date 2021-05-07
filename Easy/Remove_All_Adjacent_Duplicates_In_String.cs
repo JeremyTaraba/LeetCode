@@ -12,7 +12,7 @@ public class Solution {
                     break;
                 }
             } 
-        }
+        } 
         
         return S;
     }
