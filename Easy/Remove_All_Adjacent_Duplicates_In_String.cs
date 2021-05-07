@@ -22,3 +22,12 @@ public class Solution {
     }
 }
 
+/*
+Notes:
+Using a stack significantly reduces the run time as compared to using a loop to check the current and next character
+
+Constraints:
+1 <= S.length <= 20000
+S consists only of English lowercase letters.
+
+*/
