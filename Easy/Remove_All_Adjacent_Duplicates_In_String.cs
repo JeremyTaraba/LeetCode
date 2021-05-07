@@ -10,7 +10,7 @@ public class Solution {
                     S = S.Remove(i, 2);
                     //Console.WriteLine(S);
                     break;
-                }a
+                }
             } 
         }
         
