@@ -4,7 +4,7 @@ Given a string S of lowercase letters, a duplicate removal consists of choosing 
 
 We repeatedly make duplicate removals on S until we no longer can.
 
-Return the final string after all such duplicate removals have been made.  It is guaranteed the answer is unique.
+Return the final string after all such duplicate removals have been made.  It is guaranteed the answer is unique. 
 
 
 */
@@ -12,7 +12,7 @@ Return the final string after all such duplicate removals have been made.  It is
 public class Solution {
     public string RemoveDuplicates(string S) {
         Stack<char> stack = new Stack<char>();
-        
+         
         
         foreach(char c in S){
             if(stack.Count > 0 && stack.Peek() == c){
