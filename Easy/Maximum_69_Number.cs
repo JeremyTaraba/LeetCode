@@ -7,8 +7,6 @@ Return the maximum number you can get by changing at most one digit (6 becomes 9
 
 */
 
-
-
 public class Solution {
     public int Maximum69Number (int num) {
         String numberString = num.ToString();
