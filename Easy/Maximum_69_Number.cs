@@ -27,3 +27,13 @@ public class Solution {
         return result;
     }
 }
+
+/*
+Notes:
+O(n) time to loop through every digit of the int
+
+Constraints:
+1 <= num <= 10^4
+num's digits are 6 or 9.
+
+*/
