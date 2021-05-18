@@ -28,3 +28,14 @@ class Solution(object):
             if dividingCheck(i):
                 result.append(i)
         return result
+
+
+"""
+Notes:
+Two for loops so O(n^2) worst run time although if the number has a zero in it or isnt divisible by itself then the loop will exit sooner
+
+
+Constraints:
+The boundaries of each input argument are 1 <= left <= right <= 10000.
+
+"""
