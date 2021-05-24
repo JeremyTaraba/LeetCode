@@ -7,7 +7,7 @@ A sentence can be shuffled by appending the 1-indexed word position to each word
 For example, the sentence "This is a sentence" can be shuffled as "sentence4 a3 is2 This1" or "is2 sentence4 This1 a3".
 Given a shuffled sentence s containing no more than 9 words, reconstruct and return the original sentence.
 
-""" 
+"""  
 
 class Solution(object):
     def sortSentence(self, s):
