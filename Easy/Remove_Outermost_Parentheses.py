@@ -19,3 +19,18 @@ class Solution(object):
             
         
         return result
+
+
+"""
+Notes:
+O(n) runtime.
+We add to parentCount for left parenthesis and subtract for right parenthesis and 
+don't add to the final string if its the first set of parenthesis.
+
+Constraints:
+s.length <= 10000
+s[i] is "(" or ")"
+s is a valid parentheses string
+
+
+"""
