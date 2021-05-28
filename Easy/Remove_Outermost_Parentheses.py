@@ -7,7 +7,7 @@ A valid parentheses string s is primitive if it is nonempty, and there does not 
 Given a valid parentheses string s, consider its primitive decomposition: s = P_1 + P_2 + ... + P_k, where P_i are primitive valid parentheses strings.
 
 Return s after removing the outermost parentheses of every primitive string in the primitive decomposition of S.
-
+ 
 
 """
 
