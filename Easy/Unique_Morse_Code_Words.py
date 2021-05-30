@@ -38,7 +38,10 @@ class Solution(object):
         
 """
 Notes:
-
+O(n*m) runtime.
+We figure out what each morse code is for each letter and concatenate them for each word and add that
+morse coded word to our hashset. There is probably a cleaner way to do this instead of doing code = code + morseCode
+and setting code back to "" after every loop.
 
 Constraints:
 The length of words will be at most 100.
