@@ -26,8 +26,8 @@ class Solution(object):
             return count
         
         
-        s1 = s[:len(s)//2]
-        s2 = s[len(s)//2:]
+        s1 = s[:len(s)/2]
+        s2 = s[len(s)/2:]
         
         return numVowels(s1) == numVowels(s2)
         
@@ -35,7 +35,8 @@ class Solution(object):
 
 """
 Notes:
-
+O(n) runtime.
+split the string into halves and check how many vowels are in each half, if they have the same amount then return true.
 
 Constraints:
 2 <= s.length <= 1000
