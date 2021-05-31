@@ -21,7 +21,9 @@ class Solution(object):
 
 """
 Notes:
-
+O(1) runtime
+Just doing math calculations. Python makes it easy to duplicate characters by doing 'a'*n where in c++ you would have to
+concatenate n times.
 
 Constraints:
 1 <= n <= 500
