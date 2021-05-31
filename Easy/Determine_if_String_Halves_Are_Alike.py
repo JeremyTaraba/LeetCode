@@ -19,3 +19,15 @@ class Solution(object):
         
         return numVowels(s1) == numVowels(s2)
         
+
+
+"""
+Notes:
+
+
+Constraints:
+2 <= s.length <= 1000
+s.length is even.
+s consists of uppercase and lowercase letters
+
+"""
