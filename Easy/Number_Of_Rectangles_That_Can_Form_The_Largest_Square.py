@@ -15,3 +15,15 @@ class Solution(object):
             
         return count
         
+"""
+Notes:
+O(n) runtime
+just counting the largest number and how many their are
+
+Constraints:
+1 <= rectangles.length <= 1000
+rectangles[i].length == 2
+1 <= li, wi <= 109
+li != wi
+
+"""
