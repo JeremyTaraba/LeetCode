@@ -34,3 +34,15 @@ class Solution(object):
             return combineStrings2(word2, word1)
         else:
             return combineStrings(word1, word2)
+
+"""
+Notes:
+Runtime O(n)
+I dont really like the idea of just copy and pasting a function and changing a small part of it
+for this amount of code its fine but probably want to fix that
+
+Constraints:
+1 <= word1.length, word2.length <= 100
+word1 and word2 consist of lowercase English letters.
+
+"""
