@@ -39,5 +39,5 @@ Constraints:
 rectangles[i].length == 2
 1 <= li, wi <= 109
 li != wi
- 
+  
 """
