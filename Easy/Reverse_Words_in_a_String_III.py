@@ -1,3 +1,12 @@
+"""
+Prompt:
+Given a string s, reverse the order of characters in each word within a sentence while still preserving whitespace and initial word order.
+
+
+"""
+
+
+
 class Solution(object):
     def reverseWords(self, s):
         """
@@ -18,7 +27,7 @@ Notes:
 O(n) runtime
 first split each string on spaces to get each word. Then reverse each word in to a list. 
 Then using the list, join each word with a space as a separator into the final string
- 
+
 Constraints:
 1 <= s.length <= 5 * 104
 s contains printable ASCII characters.
