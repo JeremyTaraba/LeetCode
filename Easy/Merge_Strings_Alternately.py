@@ -12,7 +12,7 @@ class Solution(object):
         """
         :type word1: str
         :type word2: str
-        :rtype: str 
+        :rtype: str  
         """
         
         def combineStrings(shorter, longer):
