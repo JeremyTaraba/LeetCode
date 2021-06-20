@@ -22,7 +22,7 @@ class Solution(object):
                 combined+=char
                 combined+=longer[count]
                 count+=1
-            if(count <= len(longer) - 1):
+            if(count <= len(longer) - 1): 
                 combined+=longer[count:]
             return combined
         
