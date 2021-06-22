@@ -46,7 +46,7 @@ class Solution(object):
 
 """
 Notes:
-Runtime O(n)
+Runtime O(n) 
 I dont really like the idea of just copy and pasting a function and changing a small part of it
 for this amount of code it doesn't have much of an impact and is fine but probably want to fix that
 
