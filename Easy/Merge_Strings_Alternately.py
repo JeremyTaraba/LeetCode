@@ -53,5 +53,5 @@ for this amount of code it doesn't have much of an impact and is fine but probab
 Constraints:
 1 <= word1.length, word2.length <= 100
 word1 and word2 consist of lowercase English letters.
-
+ 
 """
