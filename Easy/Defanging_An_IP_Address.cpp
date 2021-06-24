@@ -1,5 +1,5 @@
 #include <string>
-
+ 
 //adding in brackets around the '.' in an ip address
 class Solution {
 public:
