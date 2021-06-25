@@ -7,7 +7,7 @@ Count and return the number of maximum integers in the matrix after performing a
 
 
 
-class Solution(object):
+class Solution(object): 
     def maxCount(self, m, n, ops):
         """
         :type m: int
