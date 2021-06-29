@@ -4,7 +4,7 @@ You are given an m x n matrix M initialized with all 0's and an array of operati
 Count and return the number of maximum integers in the matrix after performing all the operations.
 
 """
-
+ 
 
 
 class Solution(object): 
@@ -33,6 +33,6 @@ Constraints:
 1 <= ops.length <= 104
 ops[i].length == 2
 1 <= ai <= m
-1 <= bi <= n
+1 <= bi <= n 
 
 """
