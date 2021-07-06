@@ -33,6 +33,6 @@ Constraints:
 1 <= ops.length <= 104
 ops[i].length == 2
 1 <= ai <= m
-1 <= bi <= n 
+1 <= bi <= n   
 
 """
