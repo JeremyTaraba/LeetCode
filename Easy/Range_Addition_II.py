@@ -31,7 +31,7 @@ in that square but if [1,1] is not an operation then the next smallest operation
 Constraints:
 1 <= m, n <= 4 * 104
 1 <= ops.length <= 104
-ops[i].length == 2 
+ops[i].length == 2  
 1 <= ai <= m
 1 <= bi <= n
 
