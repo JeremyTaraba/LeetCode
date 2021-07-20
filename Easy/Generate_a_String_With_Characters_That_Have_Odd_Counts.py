@@ -10,7 +10,7 @@ The returned string must contain only lowercase English letters. If there are mu
 class Solution(object):
     def generateTheString(self, n):
         """
-        :type n: int
+        :type n: int 
         :rtype: str
         """
         if(n%2 == 1):
