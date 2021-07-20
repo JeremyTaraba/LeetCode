@@ -11,7 +11,7 @@ class Solution(object):
     def generateTheString(self, n):
         """
         :type n: int 
-        :rtype: str
+        :rtype: str 
         """
         if(n%2 == 1):
             return 'a'*n
@@ -19,7 +19,7 @@ class Solution(object):
             return 'a'*(n-1) + 'b'
 
 """
-Notes:
+Notes: 
 O(1) runtime
 Just doing math calculations. Python makes it easy to duplicate characters by doing 'a'*n where in c++ you would have to
 concatenate n times.
