@@ -6,7 +6,7 @@ The returned string must contain only lowercase English letters. If there are mu
 
 """
 
-
+ 
 class Solution(object):
     def generateTheString(self, n):
         """
