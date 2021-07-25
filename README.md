@@ -1,2 +1,2 @@
 # LeetCode
- Files of every LeetCode problem I have done
+ Files of every LeetCode problem I have done.
