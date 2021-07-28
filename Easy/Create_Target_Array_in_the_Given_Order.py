@@ -8,5 +8,5 @@ class Solution(object):
         ans = []
         for i in range(len(nums)):
             ans.insert(index[i], nums[i])
-        
+          
         return ans
