@@ -26,3 +26,16 @@ class Solution(object):
             ans.insert(index[i], nums[i])
           
         return ans
+
+
+"""
+Notes:
+place items from the num array into the answer array in the index indicated by the index array
+
+Constraints:
+1 <= nums.length, index.length <= 100
+nums.length == index.length
+0 <= nums[i] <= 100
+0 <= index[i] <= i
+
+"""
