@@ -35,7 +35,7 @@ public:
             if(psMed > 0){
                 psMed--;
                 return true;
-            }
+            } 
         }
         else if(carType == 3){
             if(psSmall > 0){
