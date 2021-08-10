@@ -44,7 +44,7 @@ class Solution(object):
         else:
             return combineStrings(word1, word2)
 
-"""    
+"""      
 Notes:
 Runtime O(n) 
 I dont really like the idea of just copy and pasting a function and changing a small part of it
