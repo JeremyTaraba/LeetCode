@@ -38,7 +38,8 @@ public:
 
 /*
 Notes:
-
+This way uses recursion and is very fast. Another way to do this is to loop while boths lists have nodes
+and in each loop iteration compare the current of one list with the current val of the other list
 
 Constraints:
 The number of nodes in both lists is in the range [0, 50].
