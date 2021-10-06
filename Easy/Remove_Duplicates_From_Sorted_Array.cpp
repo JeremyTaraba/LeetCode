@@ -1,3 +1,7 @@
+
+
+
+
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
@@ -21,11 +25,14 @@ public:
 
 /*
 Notes:
-
+Although this way is harder to visualize, it is much more efficient than if we checked to see if the elements next to each other were the same.
+Instead we check to see if the elements are different and slide them down into the next space.
 
 
 Constraints:
-
+0 <= nums.length <= 3 * 104
+-100 <= nums[i] <= 100
+nums is sorted in non-decreasing order.
 
 
 */
