@@ -54,3 +54,13 @@ public class Solution extends GuessGame {
         return numGuess;
     }
 }
+
+/*
+Notes:
+We constantly pick the middle number because it is the most efficient way to guess, especially when n becomes very large
+
+Constraints:
+1 <= n <= 231 - 1
+1 <= pick <= n
+
+*/
