@@ -40,3 +40,17 @@ class Solution {
         return digits;
     }
 }
+
+/*
+Notes:
+First attempt at this was to convert the int array to an int and add one then convert back into an array.
+This does not work with numbers larger than max_int. Solution is to either convert it into an unsigned long but that would just increase the limit.
+Instead, I made it so the size of the number does not matter.
+
+
+Constraints:
+1 <= digits.length <= 100
+0 <= digits[i] <= 9
+digits does not contain any leading 0's.
+
+*/
