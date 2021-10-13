@@ -26,3 +26,15 @@ class Solution {
         return curIndex;
     }
 }
+
+/*
+Notes:
+This way preserves the original array but moves the unwanted numbers to the back, the alternative is to just overrite the unwanted numbers
+
+
+Constraint:
+0 <= nums.length <= 100
+0 <= nums[i] <= 50
+0 <= val <= 100
+
+*/
