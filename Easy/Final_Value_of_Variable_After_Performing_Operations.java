@@ -26,3 +26,15 @@ class Solution {
         return value;
     }
 }
+
+/*
+Notes:
+We only need to check the character in the middle of the string since it 
+will always be a + or -
+
+
+Constraints:
+1 <= operations.length <= 100
+operations[i] will be either "++X", "X++", "--X", or "X--".
+
+*/
