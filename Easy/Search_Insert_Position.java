@@ -42,3 +42,20 @@ class Solution {
         
     }
 }
+
+/*
+Notes:
+This solutions is similar to finding the index of an item if it existed although
+for this problem the target number may not actually exist.
+I used a binary search algorithm and modified it so it worked if the number 
+didn't exist.
+
+
+Constraints:
+1 <= nums.length <= 104
+-104 <= nums[i] <= 104
+nums contains distinct values sorted in ascending order.
+-104 <= target <= 104
+
+
+*/
