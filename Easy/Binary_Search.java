@@ -21,3 +21,17 @@ class Solution {
         return FindIndex(nums, 0, nums.length-1, target);
     }
 }
+
+/*
+Notes:
+Simple binary search algorithm. Tried to make it a while loop instead of 
+its own functions but  its not as optimal.
+
+Constraints:
+1 <= nums.length <= 104
+-104 < nums[i], target < 104
+All the integers in nums are unique.
+nums is sorted in ascending order.
+
+
+*/
