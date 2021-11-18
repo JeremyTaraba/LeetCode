@@ -28,3 +28,13 @@ public class Solution extends VersionControl {
         return firstBad;
     }
 }
+
+/*
+Notes:
+We check to see if the current version is bad, if it is we check the previous version, if it isnt
+we move to the version in the middle of beggining and end.
+
+Constraints:
+1 <= bad <= n <= 231 - 1
+
+*/
