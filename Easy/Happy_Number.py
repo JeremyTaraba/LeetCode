@@ -18,3 +18,13 @@ class Solution:
 
         return True
             
+
+"""
+Notes:
+the number 1 is an edge case so I have a specific if statement for it. checknum = 4 because 4 
+will always loop and anything that loops goes back to 4
+
+Constraints:
+1 <= n <= 231 - 1
+
+"""
