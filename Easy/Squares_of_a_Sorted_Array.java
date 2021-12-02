@@ -53,6 +53,10 @@ class Solution {
 
 /*
 Notes:
+We have two different pointers, one to where the positive integers start and one from where the 
+negative integers start. For the positive we will increment it each time we square and add that
+number and for the negative pointer we will decrement it. this goes on until we reach the end
+for either one end then we finish the other pointer.
 
 
 Constraints:
