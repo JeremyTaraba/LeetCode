@@ -25,3 +25,20 @@ class Solution {
         return 0;
     }
 }
+
+
+
+/*
+Notes:
+Runtime is O(n) since only looping for n
+We first find the lowest price, then we can find the highest price and sell. Can't do this the
+other way around because we have to buy before we sell. Every time we change lowest we reset 
+highest so that we dont sell before we buy.
+
+
+
+Constraints:
+1 <= prices.length <= 105
+0 <= prices[i] <= 104
+
+*/
