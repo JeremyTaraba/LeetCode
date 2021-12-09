@@ -11,7 +11,7 @@ Return the number of rectangles that can make a square with a side length of max
   
 """   
 
-
+ 
 class Solution(object): 
     def countGoodRectangles(self, rectangles):
         """
