@@ -9,7 +9,7 @@ Let maxLen be the side length of the largest square you can obtain from any of t
 Return the number of rectangles that can make a square with a side length of maxLen.
 
      
-"""        
+"""    
  
  
 class Solution(object): 
