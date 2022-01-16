@@ -1,4 +1,4 @@
-"""    
+"""      
 Prompt:  
 You are given an array rectangles where rectangles[i] = [li, wi] represents the ith rectangle of length li and width wi.
 
