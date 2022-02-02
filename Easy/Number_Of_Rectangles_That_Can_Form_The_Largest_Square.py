@@ -7,7 +7,7 @@ You can cut the ith rectangle to form a square with a side length of k if both k
 Let maxLen be the side length of the largest square you can obtain from any of the given rectangles.
 
 Return the number of rectangles that can make a square with a side length of maxLen.
-  
+
                   
 """    
  
