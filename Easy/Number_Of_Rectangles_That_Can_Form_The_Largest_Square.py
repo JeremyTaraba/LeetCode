@@ -19,7 +19,7 @@ class Solution(object):
         :rtype: int
         """
         count = 0
-        largest = 0
+        largest = 0 
         for rect in rectangles:
             if(largest < min(rect)):
                 largest = min(rect)
