@@ -24,7 +24,7 @@ public:
         max = maxSize;
     }
     
-    void push(int x) {
+    void push(int x) { 
         if(top >= (max-1)){
             return;
         }
@@ -51,6 +51,13 @@ public:
         }
     }
 };
+
+int main(){
+    int[] array;
+    array.push(2); 
+    array.pop(); 
+    return 0;
+}
 
 /**
  * Your CustomStack object will be instantiated and called as such:
