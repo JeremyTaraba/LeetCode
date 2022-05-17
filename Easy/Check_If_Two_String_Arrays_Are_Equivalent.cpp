@@ -4,9 +4,8 @@ Given two string arrays word1 and word2, return true if the two arrays represent
 
 A string is represented by an array if the array elements concatenated in order forms the string.
 
-
-*/
-
+  
+*/ 
 class Solution {
 public:
     bool arrayStringsAreEqual(vector<string>& word1, vector<string>& word2) {
