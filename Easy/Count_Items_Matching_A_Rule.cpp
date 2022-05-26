@@ -23,7 +23,7 @@ public:
         int itemsFollow = 0;
         unsigned char rule = 0; //assume ruleKey == "type"
         
-        
+         
         if(ruleKey == "color"){
            rule = 1;
         }
