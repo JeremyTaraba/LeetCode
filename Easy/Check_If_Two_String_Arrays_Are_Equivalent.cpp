@@ -11,7 +11,7 @@ public:
     bool arrayStringsAreEqual(vector<string>& word1, vector<string>& word2) {
         string firstWord;  
         string secondWord;
-        for(short int i = 0; i < word1.size(); i++){
+        for(short int i = 0; i < word1.size(); i++){ 
             firstWord.append(word1.at(i));
         }
         for(short int i = 0; i < word2.size(); i++){
