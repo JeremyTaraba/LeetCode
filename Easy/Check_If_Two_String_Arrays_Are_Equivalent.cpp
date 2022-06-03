@@ -9,7 +9,7 @@ A string is represented by an array if the array elements concatenated in order 
 class Solution {
 public:
     bool arrayStringsAreEqual(vector<string>& word1, vector<string>& word2) {
-        string firstWord;
+        string firstWord;  
         string secondWord;
         for(short int i = 0; i < word1.size(); i++){
             firstWord.append(word1.at(i));
