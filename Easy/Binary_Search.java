@@ -7,7 +7,7 @@ You must write an algorithm with O(log n) runtime complexity.
     
 */   
     
-
+ 
 class Solution {
     
     public static int FindIndex(int[] nums, int beg, int end, int target){
