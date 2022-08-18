@@ -14,10 +14,10 @@ Explanation:
 heights:  [1,1,4,2,1,3]
 expected: [1,1,1,2,3,4]
 Indices 2, 4, and 5 do not match.
-
+ 
 */
 
-
+ 
 class Solution {
 public:
     int partition(vector<int> &values, int left, int right) {   //recursive function for swapping values around
