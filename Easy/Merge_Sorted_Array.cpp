@@ -9,7 +9,7 @@ public:
             return;
         }
         //remove trailing zeros
-        vector<int>::iterator it = nums1.end()-1;  
+        vector<int>::iterator it = nums1.end()-1;   
         for(int i = 0; i < n; i++){
             nums1.erase(it);
             it--;
