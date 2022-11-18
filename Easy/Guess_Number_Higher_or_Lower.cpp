@@ -7,7 +7,7 @@
  * int guess(int num);
  */
 
-class Solution {
+class Solution { 
 public:
     int guessNumber(int n) {
         unsigned guessNum = n/2;
@@ -16,7 +16,7 @@ public:
         int checkGuess = guess(guessNum);
         
         while(checkGuess != 0){
-            if(checkGuess == 1){
+            if(checkGuess == 1){ 
                 lowerBound = guessNum + 1;
                 guessNum = (lowerBound + higherBound)/2;
             }
