@@ -7,7 +7,7 @@
  * int guess(int num);
  */
 
-class Solution {   
+class Solution {      
 public:
     int guessNumber(int n) {
         unsigned guessNum = n/2;
