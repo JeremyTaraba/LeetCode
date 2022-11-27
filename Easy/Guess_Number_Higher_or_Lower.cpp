@@ -8,7 +8,7 @@
  */
 
 class Solution {       
-public:
+public: 
     int guessNumber(int n) {
         unsigned guessNum = n/2;
         unsigned lowerBound = 1;
