@@ -13,7 +13,7 @@ public:
         unsigned guessNum = n/2;
         unsigned lowerBound = 1;
         unsigned higherBound = n;
-        int checkGuess = guess(guessNum);
+        int checkGuess = guess(guessNum);   
         
         while(checkGuess != 0){
             if(checkGuess == 1){ 
