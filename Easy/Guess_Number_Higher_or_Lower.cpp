@@ -6,7 +6,7 @@
  *               otherwise return 0
  * int guess(int num);
  */
-
+ 
 class Solution {       
 public: 
     int guessNumber(int n) {
