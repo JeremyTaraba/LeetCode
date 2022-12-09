@@ -11,7 +11,7 @@ You must write an algorithm with O(log n) runtime complexity.
 class Solution {
     
     public static int FindIndex(int[] nums, int beg, int end, int target){
-        if(beg <= end){
+        if(beg <= end){ 
             int mid = beg + (end - beg)/2;
             if(nums[mid] == target){
                 return mid;
