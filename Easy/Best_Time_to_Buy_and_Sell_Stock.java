@@ -9,7 +9,7 @@ Return the maximum profit you can achieve from this transaction. If you cannot a
        
 */
     
-
+  
 class Solution {
     public int maxProfit(int[] prices) {
         int lowestPrice = prices[0];
