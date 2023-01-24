@@ -17,5 +17,4 @@ class Solution:
                 right = right - 1
       
 
-
         return max
