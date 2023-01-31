@@ -37,10 +37,22 @@ class Solution:
             start = end
 
        # printout matrix
-        for i in range(0,len(matrix)):
-            for j in range(0, len(matrix)):
-                print(matrix[i][j], end=" ")
-            print()
+        # for i in range(0,len(matrix)):
+        #     for j in range(0, len(matrix)):
+        #         print(matrix[i][j], end=" ")
+        #     print()
 
 
         
+
+        # Second try: Use Numpy array for better time and space complexity
+        # question won't let you create a new array even if its numpy
+
+        # import numpy as np
+        # npMatrix = np.array(matrix)
+
+        # npMatrix = np.rot90(npMatrix, k=1, axes=(1, 0))
+
+        # matrix = npMatrix
+
+        # matrix = matrix.tolist()
