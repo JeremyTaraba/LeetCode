@@ -38,7 +38,7 @@ class Solution:
     # Second attempt-------------------------------------------------------------
     # a bit faster and easier to understand than 2 lists
         ans = ""
-        romanNums = {
+        romanNums = { 
             "M" : 1000,
             "CM" : 900,
             "D" : 500,
