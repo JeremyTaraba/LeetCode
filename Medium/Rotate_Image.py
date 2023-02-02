@@ -45,8 +45,9 @@ class Solution:
 
         
 
-        # Second try: Use Numpy array for better time and space complexity
-        # question won't let you create a new array even if its numpy
+        # Second try: -------------------------------------------------------------------
+        # Use Numpy array for better time and space complexity
+        # Error: question won't let you create a new array even if its numpy so this doesn't work
 
         # import numpy as np
         # npMatrix = np.array(matrix)
