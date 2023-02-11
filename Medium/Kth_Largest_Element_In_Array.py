@@ -30,3 +30,14 @@ class Solution:
         return self.quickSelect(nums,0,len(nums)-1, k)
 
 
+        # ^ runtime is terrible on Leetcode but it is theoretically the fastest
+
+
+
+
+        # Second attempt: just use sorting alorithm     ----------------------------------------------------------------------
+        
+        nums.sort()
+        return nums[len(nums)-k]
+
+        # ^ is much faster on Leetcode
