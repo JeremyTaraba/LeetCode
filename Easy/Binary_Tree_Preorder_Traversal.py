@@ -12,13 +12,13 @@ class Solution:
         if(root == None):
             return
         
-        ans.append(root.val)          # append here for preorder
+        ans.append(root.val)          # append here for preorder, first time you visit a node
         if(root.left != None):
             self.preOrder(root.left, ans)
-        # ans.append(root.val)          # append here for inorder
+        # ans.append(root.val)          # append here for inorder, second time you visit a node
         if(root.right != None):
             self.preOrder(root.right, ans)
-        # ans.append(root.val)            # append here for postorder
+        # ans.append(root.val)            # append here for postorder, last time you visit a node
         return
 
  
