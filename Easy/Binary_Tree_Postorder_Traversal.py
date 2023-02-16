@@ -13,7 +13,7 @@ class Solution:
             return
         
         # ans.append(root.val)          # append here for preorder
-        if(root.left != None):
+        if(root.left != None):          # dont need these if statements but helps for 1 less recursion
             self.postOrder(root.left, ans)
         # ans.append(root.val)          # append here for inorder
         if(root.right != None):
