@@ -6,6 +6,8 @@
 #         self.right = right
 class Solution:
 
+    # First Attempt: Recursion and append to list. Same as postorder
+
     def preOrder(self, root, ans):
         if(root == None):
             return
