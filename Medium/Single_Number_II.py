@@ -15,3 +15,7 @@ class Solution:
         return ans
     
     # ^ runtime for Counter() is O(n)
+
+
+    # Second attempt:       ------------------------------------------------------------
+    # # Try doing a bitwise xor and & 
