@@ -14,5 +14,14 @@ class Solution:
                 return True
 
         return False
+    
+        # runtime is O(log n)  space is O(1)
 
-        # second attempt: Make this more efficient by 
+        # second attempt: Make this more efficient by using bits. bitwise & n and n-1 if
+        # n == pow 2 then n&n-1 will be 0. Ex: 8 = 1000 and 7 = 0111 so 1000&0111 = 0
+
+        if(n<=0):
+            return False
+        return ( ( n & (n-1) )== 0)
+    
+        # ^ runtime is O(1) and space is O(1)
