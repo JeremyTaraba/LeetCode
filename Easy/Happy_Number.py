@@ -14,26 +14,21 @@ Return true if n is a happy number, and false if not.
 """
 
 
-
 class Solution:
     def isHappy(self, n: int) -> bool:
-        if(n == 1):
-            return True
-        Numsum = 0
-        Checknum = 4    # 4 always loops
-        counter = 0
-
-        while(Numsum != 1):
-          Numsum = 0
-          for x in str(n):
-            Numsum += int(x)*int(x)
-            counter+=1
-          if(Checknum == Numsum and counter > 2):
-            return False;
-          n = Numsum
-          
-
+       
+        visited = []
+        
+        while n != 1:
+            temp = 0
+            if n in visited:
+                return False
+            visited.append(n)
+            for digit in str(n):
+                temp += int(digit)**2
+            n = temp
         return True
+
             
 
 """
