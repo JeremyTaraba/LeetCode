@@ -8,7 +8,7 @@ class Solution:
     def binaryTreePaths(self, root: Optional[TreeNode]) -> List[str]:
         # first attempt: use inner function to keep the answer saved without returning anything
 
-        def dfs(node, path, asnwer):
+        def dfs(node, path, answer):
             if node==None:
                 return
             path.append(str(node.val))
