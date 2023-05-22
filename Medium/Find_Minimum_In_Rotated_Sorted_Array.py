@@ -8,9 +8,9 @@ class Solution:
             mid = math.ceil((left + right) / 2) 
 
             if(nums[mid] > nums[right]): # only move up to mid so we don't go past it
-                left = mid
+                left = mid + 1
             else:
-                right = mid
+                right = mid - 1 
 
         if(nums[left] < nums[right]):
             return nums[left]
