@@ -39,7 +39,7 @@ class MyHashSet:
     def hash_funct(self, key: int) -> int:
         return hash(key) % self.size 
 
-    def add(self, key: int) -> None:
+    def add(self, key: int) -> None: 
         self.set[self.hash_funct(key)] = key     
 
         
