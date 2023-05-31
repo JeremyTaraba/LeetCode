@@ -6,6 +6,12 @@
 class Solution:
     def removeElements(self, head: Optional[ListNode], val: int) -> Optional[ListNode]:
         # First attempt: Go through the list linearly and remove target values O(n) runtime
+        # Edge cases: 1. List is empty
+        # 2. target nodes in a row
+        # 3. head node is a target
+        # 4. Everything is a target
+        # 5. Only last node is a target
+
 
         if(head == None):
             return head
