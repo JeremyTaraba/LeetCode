@@ -11,7 +11,7 @@ class Solution:
         # will need to check children of the tree. <- lots of recursion. Can instead create a 
         # global variable(instance variable) to keep track of answer
         self.answer = 0
-       
+        
         self.calculateLR(root)
         return self.answer
 
