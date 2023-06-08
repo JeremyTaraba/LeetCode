@@ -14,4 +14,4 @@ Each directory is organized in a similar manner, with the following structure:
 
 
 # Acknowledgments
-- The LeetCode team for creating an amazing platform for coding practice and skill improvement.
+The LeetCode team for creating an amazing platform for coding practice and skill improvement.
