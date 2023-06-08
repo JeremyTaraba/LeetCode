@@ -2,7 +2,7 @@
 
 This repository is a collection of LeetCode coding questions and my solutions to them. The names of the files correspond to the name of the question. Some questions will have more than one solution to compare time and space complexity. Some of the same questions are done in different coding languages to test my knowledge and syntax.
 
-## Contents
+# Contents
 The repository contains the following directories:
 
 - Easy: This directory contains solutions to LeetCode's easy-level coding questions.
