@@ -50,8 +50,6 @@ class Solution:
         r = len(height)-1      #right index
 
         while l <= r:
-            # print("l:", maxLeft)
-            # print("r:", maxRight)
             if maxLeft < maxRight:
                 x = maxLeft - height[l]
                 if x < 0:
