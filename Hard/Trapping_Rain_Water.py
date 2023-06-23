@@ -37,3 +37,37 @@ class Solution:
         return sum
 
         # could optimize this with less for loops
+
+
+
+        # third attempt: Use 2 pointers again but this time using min of maxLeft and maxRight - height[i]
+
+        sum = 0
+
+        maxLeft = height[0]   #highest wall from the left side so far
+        maxRight = height[len(height)-1]   #highest wall from the right side so far
+        l = 0           #left index
+        r = len(height)-1      #right index
+
+        while l <= r:
+            # print("l:", maxLeft)
+            # print("r:", maxRight)
+            if maxLeft < maxRight:
+                x = maxLeft - height[l]
+                if x < 0:
+                    maxLeft = height[l]
+                l+=1
+               
+            else:
+                x = maxRight - height[r]
+                if x < 0:
+                    maxRight = height[r]
+                r-=1
+            
+            if x > 0:
+                sum+=x
+
+
+
+        return sum
+
