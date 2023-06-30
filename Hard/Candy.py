@@ -44,7 +44,7 @@ class Solution:
 
         length = len(ratings)
         arr = [1] * length
-
+  
         # first pass goes forwards
         for i in range(length-1):       
             if ratings[i] < ratings[i+1]:
