@@ -21,7 +21,7 @@ class Solution:
         "9":"wxyz",
         }
 
-        
+        # found out this is a backtracking problem
         def backtrack(index, currStr):
             if len(currStr) == len(digits): # if we have enough characters
                 arr.append(currStr)         # append it
