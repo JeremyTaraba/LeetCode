@@ -9,7 +9,7 @@ class Solution:
             right = len(nums)
 
             while right > left:
-                i = int((right + left) // 2)
+                i = int((right + left) // 2) 
                 if nums[i] < myTarget: 
                     left = i+1
                 else:
