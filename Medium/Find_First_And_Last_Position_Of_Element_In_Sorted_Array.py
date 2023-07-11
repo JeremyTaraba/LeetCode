@@ -10,7 +10,7 @@ class Solution:
 
             while right > left:
                 i = int((right + left) // 2)
-                if nums[i] < myTarget:
+                if nums[i] < myTarget: 
                     left = i+1
                 else:
                     right = i           # don't do i-1 because we want right to equal left to exit loop
