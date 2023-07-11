@@ -13,7 +13,7 @@ class Solution:
                 if nums[i] < myTarget:
                     left = i+1
                 else:
-                    right = i           
+                    right = i           # don't do i-1 because we want right to equal left to exit loop
                     
             return left
 
