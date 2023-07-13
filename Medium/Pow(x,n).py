@@ -18,6 +18,9 @@ class Solution:
 
         return result
 
+    
+        # ^ run time is O(n) but is too slow
 
+        # here is a new one with O(log n)
 
         
