@@ -35,7 +35,7 @@ class Solution:
 
         # want to shrink n by half each time
         while n > 0:
-            if n % 2 == 1:  # on odd number we can multiply result with x
+            if n % 2 == 1:  # on odd number we can multiply result with x, will always hit n = 1 before ending loop
                 result *= x
 
             x*=x    # increase x, exponentially
