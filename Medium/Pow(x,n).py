@@ -21,6 +21,32 @@ class Solution:
     
         # ^ run time is O(n) but is too slow
 
+
         # here is a new one with O(log n)
+        negative = False
+        if n == 0:
+            return 1
+        if n < 0:
+            negative = True
+            n = -n
+
+
+        result = 1
+
+        # want to shrink n by half each time
+        while n > 0:
+            if n % 2 == 1:  # on odd number we can multiply result with x
+                result *= x
+
+            x*=x    # increase x, exponentially
+            n = n // 2 # decrease n by half each time
+            
+
+        if negative:
+            return 1/result
+
+        return result
+
+
 
         
