@@ -26,7 +26,7 @@ class Solution:
         negative = False
         if n == 0:
             return 1
-        if n < 0:
+        if n < 0: 
             negative = True
             n = -n
 
