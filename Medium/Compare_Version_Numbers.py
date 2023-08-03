@@ -1,4 +1,4 @@
-class Solution:
+class Solution: 
     def compareVersion(self, version1: str, version2: str) -> int:
         # first attempt: split the version on "." and store sections into a list
         # compare indexes of the list against each other, ignoring leading 0's
