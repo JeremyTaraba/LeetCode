@@ -4,7 +4,7 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-class Solution:
+class Solution:       
     
     def findTilt(self, root: Optional[TreeNode]) -> int:
         # first attempt: Start at the root and calculate it then move to left then to right
