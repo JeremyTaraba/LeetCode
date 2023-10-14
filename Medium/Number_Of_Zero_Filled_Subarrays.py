@@ -1,6 +1,7 @@
 class Solution:
     def zeroFilledSubarray(self, nums: List[int]) -> int:
         # first attempt: just count, try not to use extra space
+        # runtime is not the greatest but space is really good
         total = 0
         length = len(nums)
         i = 0
