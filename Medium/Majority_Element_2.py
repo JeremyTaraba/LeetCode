@@ -21,3 +21,5 @@ class Solution:
                 ans.append(k)
         
         return ans
+    
+     # second attempt: We can only return atmost, 2 elements Boyer-Moore Majority Voting Algorithm
