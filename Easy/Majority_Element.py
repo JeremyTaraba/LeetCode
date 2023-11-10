@@ -1,6 +1,7 @@
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
         # using the Majority Voting Algorithm to count occurences, only works because we are guaranteed a majority element
+        # runtime O(n), space O(1)
         counter = 0
         candidate = 0
         
