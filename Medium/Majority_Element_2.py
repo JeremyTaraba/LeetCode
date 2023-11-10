@@ -22,4 +22,5 @@ class Solution:
         
         return ans
     
-     # second attempt: We can only return atmost, 2 elements Boyer-Moore Majority Voting Algorithm
+     # second attempt: We can only return atmost, 2 elements Boyer-Moore Majority Voting Algorithm, this algorithm only works if there is 
+     # guaranteed a majority element
