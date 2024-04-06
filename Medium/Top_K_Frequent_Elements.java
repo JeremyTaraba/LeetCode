@@ -8,6 +8,7 @@ class Solution {
         Map<Integer, List<Integer>> simplifiedFreqMap = new HashMap<>();
         int highestFreq = 1;
 
+
         for(int i = 0; i < nums.length; i++){
             if(freqMap.containsKey(nums[i])){
                 if(highestFreq < freqMap.get(nums[i])+1){
@@ -32,6 +33,7 @@ class Solution {
                 simplifiedFreqMap.put(e.getValue(), tempArrayList);
             }
         }
+
 
         while(k != 0 || highestFreq == 0){
             if(simplifiedFreqMap.containsKey(highestFreq)){
