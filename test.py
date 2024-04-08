@@ -1,42 +1,18 @@
-from collections import deque
-
-
-def binarySearch(list, target):
-    right = len(list)
-    left = 0
-    ans = False
-    while(right >= left):
-        mid = left + (right - left) // 2
-        if(list[mid] == target):
-            ans = True
-            break
-        if(list[mid] < target):
-            left = mid + 1
-        else:
-            right = mid - 1
-    print(ans)
-
-
-
-class node:
+def compareTriplets(a, b):
     
-    def __init__(self, value, right, left) -> None:
-        self.value = value
-        self.left= left
-        self.right = right
 
+    # Write your code here
+    alice = 0
+    bob = 0
+    for i in range(0,len(a)):
+        if(a[i] < b[i]):
+            bob+=1
+        elif(a[i] > b[i]):
+            alice+=1
+    print(alice)
+    return [alice, bob]
 
-root = node(1, None, None)
-node2 = node(2, None, None)
-node3 = node(3, None, None)
-node4 = node(4, None, None)
-node5 = node(5, None, None) 
+a = list(map(int, [1,2,3]))
 
-root.left = node2
-root.right = node3
-node2.left = node4
-node3.right = node5
-
-list = [1,2,3,4,5,6,7,8,9,10]
-
-binarySearch(list, 3)
+b = list(map(int,  [0,2,3]))
+compareTriplets(a,b)
