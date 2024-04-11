@@ -12,7 +12,28 @@ def compareTriplets(a, b):
     print(alice)
     return [alice, bob]
 
-a = list(map(int, [1,2,3]))
+def quicksort(arr, left, right):
+    if left < right:
+        pivot = partition(arr, left, right)
+        quicksort(arr, left, pivot-1)
+        quicksort(arr, pivot+1, right)
+
+def partition(arr, left, right):
+    pivotElement = arr[right]
+    compareIndex = left-1
+
+    for i in range(left, right):
+        if arr[i] <= pivotElement:
+            compareIndex +=1
+            arr[compareIndex], arr[i] =  arr[i], arr[compareIndex]
+    arr[compareIndex+1], arr[right] = arr[right], arr[compareIndex+1]
+    return compareIndex+1
+
+a = list(map(int, [1,2,3,5,10,9,1,4]))
 
 b = list(map(int,  [0,2,3]))
-compareTriplets(a,b)
+#compareTriplets(a,b)
+
+size = len(a)-1
+quicksort(a,0,size)
+print(a)
