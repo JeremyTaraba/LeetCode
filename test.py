@@ -1,3 +1,6 @@
+import urllib.request, json
+
+
 def compareTriplets(a, b):
     
 
@@ -36,4 +39,14 @@ b = list(map(int,  [0,2,3]))
 
 size = len(a)-1
 quicksort(a,0,size)
-print(a)
+
+
+latitude = "df"
+longitude = "df"
+
+try:
+    with urllib.request.urlopen(f"https://api.openweathermap.org/data/2.5/weather?lat={latitude}&lon={longitude}&appid=282b9c5774fbbe93865898bfd449f756&units=imperial") as url:
+        data = json.load(url)
+    print(data)
+except:
+    print("error requesting weather from urllib")
