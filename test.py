@@ -37,16 +37,63 @@ a = list(map(int, [1,2,3,5,10,9,1,4]))
 b = list(map(int,  [0,2,3]))
 #compareTriplets(a,b)
 
-size = len(a)-1
-quicksort(a,0,size)
 
 
-latitude = "df"
-longitude = "df"
+class BarGraph:
+    
 
-try:
-    with urllib.request.urlopen(f"https://api.openweathermap.org/data/2.5/weather?lat={latitude}&lon={longitude}&appid=282b9c5774fbbe93865898bfd449f756&units=imperial") as url:
-        data = json.load(url)
-    print(data)
-except:
-    print("error requesting weather from urllib")
+    def largestRectangleArea(self, heights) -> int:
+            # find min, find area including min (by counting consecutive bars without 0), remove min.
+            # ideal solution uses stack, maybe use stack to find consecutive bars
+
+            myStack = []
+            minNum = heights[0]
+            myStack.append(minNum)
+            maxHeight = 0
+
+
+# need a find min function to find min value of next bar not at 0
+            for i in range(1, len(heights)):
+
+                counter = 1
+                indexOfMin = 0
+                while len(myStack) > 0 and counter < len(heights):
+                    
+                    if heights[counter] == 0:
+                        height = self.findMaxHeight(myStack, minNum)
+                        if(height > maxHeight):
+                            maxHeight = height
+                        myStack.clear()
+                        if(counter+1 < len(heights)):
+                            counter+=1
+                            myStack.append(heights[counter])
+                            if heights[counter] < minNum:
+                                minNum = heights[counter]
+                                indexOfMin = counter
+                    elif heights[counter] < minNum:
+                        minNum = heights[counter]
+                        indexOfMin = counter
+                        myStack.append(minNum)
+                    else:
+                        myStack.append(minNum)
+                    counter+=1
+                print(heights)
+                height = self.findMaxHeight(myStack, minNum)
+                if(height > maxHeight):
+                    maxHeight = height
+                heights[indexOfMin] = 0
+                
+            return maxHeight
+
+
+    def findMaxHeight(self, stack, min):
+        max = 0
+        for item in stack:
+            if item != 0:
+                max += min
+        return max
+    
+
+test = BarGraph()
+list = [2,1,5,6,2,3]
+print(test.largestRectangleArea(list))
