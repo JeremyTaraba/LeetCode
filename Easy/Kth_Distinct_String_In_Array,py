@@ -1,0 +1,13 @@
+class Solution:
+    def kthDistinct(self, arr: List[str], k: int) -> str:
+        
+        ans_list = []
+        count = Counter(arr) # I think counter maintains order but is orders by largest to smallest
+        for key,v in count.items():
+            if v == 1:
+                ans_list.append(key)
+
+        if k-1 > len(ans_list) or not ans_list:
+            return ""
+        
+        return ans_list[k-1]
