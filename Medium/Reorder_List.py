@@ -11,6 +11,7 @@ class Solution:
         # save all values to a list and then go through that list when adding to head O(n) runtime and space
         # when going through the list use 2 pointers so your at correct index
         # technically only need the last half of the linkedlist and can append every other node instead of recreating the Linked List
+        # we could do this using a cur and next pointers and once next reaches the end cur will be in the middle of the linked list
 
         copy = []
         headPntr = head
