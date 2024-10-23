@@ -17,7 +17,7 @@ class Solution:
         hashMap = { None: None}
 
 
-        # works but doesnt take random into account
+    
         cur = head
         while cur:
             tempNode = Node(cur.val)
