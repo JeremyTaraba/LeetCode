@@ -14,7 +14,6 @@ class Solution:
 
         cur = root
         queue.append(cur)
-        level = 0
         while len(queue) > 0:
             level_size = len(queue)
             firstTime = True
@@ -33,9 +32,3 @@ class Solution:
 
         return res
     
-    def checkHeight(self, root, height):
-        if not root:
-            return height
-        left = self.checkHeight(root.left, height + 1)
-        right = self.checkHeight(root.right, height + 1)
-        return max(left, right)
