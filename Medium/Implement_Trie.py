@@ -34,15 +34,13 @@ class Trie:
 
     def startsWith(self, prefix: str) -> bool:
         cur = self.root
-        lettersFound = 0
         for c in prefix:
             if c in cur.children:
-                lettersFound += 1
                 cur = cur.children[c]
             else:
                 return False
 
-        return lettersFound == len(prefix)
+        return True
         
 
 
