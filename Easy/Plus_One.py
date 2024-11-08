@@ -5,6 +5,7 @@ class Solution:
         # see if there is a remainder and loop as long as remainder is there
         # reverse the list
         # return it
+        # don't have to reverse it could just start from the last index
 
         
         digits.reverse()
