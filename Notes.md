@@ -60,7 +60,7 @@ answerList = []
 
 ## Dynamic Programming
 Usually problems where you either choose to take a path or to not take a path, can sometimes be confused with combinations.
-Commonly solved using a dp[] array that stores past results (memorization). Typically using a bottom up approach is easier to understand and implement but sometimes a top down approach is better. Sometimes you don't even need the whole array, you just need the last computed values so can just use 2 variables to keep track of this. Can also use a set or map instead of using an array if need be. 
+Commonly solved using a dp[] array that stores past results (memorization). Typically using a bottom up approach is easier to understand and implement but sometimes a top down approach is better. Sometimes you don't even need the whole array, you just need the last computed values so can just use 2 variables to keep track of this. Can also use a set or map instead of using an array if need be. Usually At least O(n^2) if not worse runtime.
 
 ## Additional Notes:
 - Sum of first n natural numbers (1,2,...n) can be found by doing n*(n+1)/2
