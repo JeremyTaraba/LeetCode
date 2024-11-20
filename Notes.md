@@ -39,7 +39,7 @@ Very useful for finding the minimum or maximum values in O(1) time. The storage 
 ## Trees and Graphs and Tries
 Usually we use dfs for searching because bfs is harder to implement but bfs is good if we want to search for the closest connection to something else. Unlike dfs, bfs is better done not recursively and instead iteratively using a queue. Bidirectional search is used to find the shortest path from a source to destination. It is basically 2 bfs one on the source and another on the destination until they collide. 
 
-For Graphs. Need to have a Visit set so you know which nodes you have already visited so you don't go in circles. May need to nested loop to call the dfs function.
+For Graphs. Need to have a Visit set so you know which nodes, (row,col) for 2D arrays, you have already visited so you don't go in circles. May need to nested loop to call the dfs function.
 
 ## Backtracking
 Used if need all combinations of something. Horrible runtime since computing every possibility. Use a dfs for these and go down different paths where you either choose or don't choose an option. Usually you append the answer into a list that is global or can also pass it in as a parameter. 
