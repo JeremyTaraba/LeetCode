@@ -39,7 +39,7 @@ Very useful for finding the minimum or maximum values in O(1) time. The storage 
 ## Trees and Graphs and Tries
 Usually we use dfs for searching because bfs is harder to implement but bfs is good if we want to search for the closest connection to something else. Unlike dfs, bfs is better done not recursively and instead iteratively using a queue. Bidirectional search is used to find the shortest path from a source to destination. It is basically 2 bfs one on the source and another on the destination until they collide.
 
-# Backtracking
+## Backtracking
 Used if need all combinations of something. Horrible runtime since computing every possibility. Use a dfs for these and go down different paths where you either choose or don't choose an option. Usually you append the answer into a list that is global or can also pass it in as a parameter. 
 EX: 
 answerList = []
@@ -58,7 +58,7 @@ answerList = []
     backtracking(0,[], 0)
 
 
-# Dynamic Programming
+## Dynamic Programming
 Usually problems where you either choose to take a path or to not take a path, can sometimes be confused with combinations.
 Commonly solved using a dp[] array that stores past results (memorization). Typically using a bottom up approach is easier to understand and implement but sometimes a top down approach is better. Sometimes you don't even need the whole array, you just need the last computed values so can just use 2 variables to keep track of this. Can also use a set or map instead of using an array if need be. 
 
