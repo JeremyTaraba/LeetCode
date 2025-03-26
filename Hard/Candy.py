@@ -3,7 +3,7 @@ class Solution:
         # first attempt: cant change the order, two pointers? check if neighbor is bigger or smaller
         # would knowing min or max value help? min would help because you know to give them 1
         # keep track of what the previous kid got
-        # create second list to keep track of if it went up or down
+        # create second list to keep track of if it went up or down  
 
         
         # if(len(ratings) == 1):  # can't be zero per constraints
