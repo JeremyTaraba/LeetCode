@@ -5,7 +5,7 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def maxPathSum(self, root: Optional[TreeNode]) -> int:
+    def maxPathSum(self, root: Optional[TreeNode]) -> int: 
         res = [root.val]    # keep track of highest value we have seen so far
 
         def dfs(root):
